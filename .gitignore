@@ -1,0 +1,57 @@
+# 💀 Swarm Studio .gitignore — Protect the Ritual
+
+# 🧾 Environment & Secrets
+.env
+*.json
+credentials/
+!credentials/.gitkeep
+
+# 🧠 Memory Archives
+media/
+memory/runs/
+memory/mutation_index.json
+
+# 🛠️ Python System Noise
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pyo
+*.log
+
+# 📦 Build/Distribution
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# 🌐 Frontend Noise
+frontend/node_modules/
+frontend/.next/
+frontend/dist/
+frontend/.DS_Store
+
+# 💻 VS Code/IDE files
+.vscode/
+*.swp
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ⚙️ OS Files
+.DS_Store
+Thumbs.db
+
+# 📁 Cache/Artifact dumps
+.cache/
+.pytest_cache/
+coverage/
+*.cover
+*.coverage
+*.orig
+
+# 🌀 Ritual Debug Files
+*.bak
+*.tmp
+*.old
